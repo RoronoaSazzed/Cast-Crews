@@ -28,7 +28,7 @@ h2{
 .mainDiv{
     min-height: 90vh;
     font-family: 'EB Garamond', serif;
-    color: white;
+    color: #ecf0f1;
     font-weight: 600;
 }
 .logInBtn{
@@ -37,14 +37,8 @@ h2{
     text-decoration: none;
 }
 
-/*.logInBtn a{
-    color: white;
-    font-family: 'EB Garamond', serif;
-    font-weight: 600;
-}*/
-
 #trial{
-    margin-right: -15px;
+    margin-left: 15px;
 }
 
 #tryBtnDiv{
@@ -73,8 +67,7 @@ h2{
 }
 
 .text-right{
-    display: block;
-    margin-left: auto;
+    text-align: right;
 }
 
 .videoResponsive{
@@ -82,6 +75,7 @@ h2{
     height: 0;
     padding-bottom: 56.25%;
     position: relative;
+    box-shadow: 0px 5px 50px black;
 }
 
 .videoResponsive iframe{
@@ -102,6 +96,6 @@ h2{
 .footer a,
 .footer span{
     font-family: 'Jomolhari', serif;
-    color: white;
+    color: #ecf0f1;
     text-shadow: 0px 3px 3px black;
 }
